@@ -2,9 +2,11 @@
   "name": "@tailify/jest-preset",
   "version": "0.0.0",
   "description": "Tailify's very own opinionated Jest preset",
-  "main": "index.js",
+  "main": "jest-preset.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "jest"
   },
   "repository": "tailify/jest-preset",
   "keywords": [
@@ -13,5 +15,18 @@
   ],
   "license": "UNLICENSED",
   "bugs": "https://github.com/tailify/jest-preset/issues",
-  "homepage": "https://github.com/tailify/jest-preset#readme"
+  "homepage": "https://github.com/tailify/jest-preset#readme",
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-node": "^6.0.0",
+    "is-plain-obj": "^1.1.0",
+    "jest": "^23.1.0"
+  },
+  "peerDependencies": {
+    "jest": "^23.1.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
 }
