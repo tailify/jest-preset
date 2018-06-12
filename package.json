@@ -1,0 +1,17 @@
+{
+  "name": "@tailify/jest-preset",
+  "version": "0.0.0",
+  "description": "Tailify's very own opinionated Jest preset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "tailify/jest-preset",
+  "keywords": [
+    "jest",
+    "jest-preset"
+  ],
+  "license": "UNLICENSED",
+  "bugs": "https://github.com/tailify/jest-preset/issues",
+  "homepage": "https://github.com/tailify/jest-preset#readme"
+}
