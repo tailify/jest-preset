@@ -1,9 +1,6 @@
 'use strict';
 
-const isPlainObj = require('is-plain-obj');
-
-it('should export an object', () => {
+it('should contain expected keys', () => {
   const preset = require('../jest-preset');
-
-  expect(isPlainObj(preset)).toBe(true);
+  expect(Object.keys(preset)).toMatchSnapshot();
 });
