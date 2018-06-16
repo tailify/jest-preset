@@ -1,3 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should contain expected keys 1`] = `Array []`;
+exports[`should contain expected keys 1`] = `
+Array [
+  "moduleFileExtensions",
+  "testMatch",
+  "transform",
+]
+`;
