@@ -4,6 +4,7 @@ exports[`should contain expected keys 1`] = `
 Array [
   "globalSetup",
   "moduleFileExtensions",
+  "setupFiles",
   "testMatch",
   "transform",
 ]
