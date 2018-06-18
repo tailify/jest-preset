@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`writes step definitions to cache file 1`] = `
+Array [
+  "/fruits/__steps__/pear.js",
+  "/fruits/__steps__/banana.js",
+  "/vegetables/__steps__/melon.js",
+]
+`;
