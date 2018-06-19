@@ -1,6 +1,6 @@
 {
   "name": "@tailify/jest-preset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tailify's very own opinionated Jest preset",
   "main": "jest-preset.js",
   "scripts": {
