@@ -16,6 +16,7 @@ module.exports = async () => {
     ignorePattern: / ^/,
     maxWorkers: 1,
     platforms: [],
+    roots: ['.'],
   };
 
   const { hasteFS } = await new HasteMap(defaultConfig).build();
