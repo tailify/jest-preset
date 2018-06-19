@@ -5,6 +5,9 @@ Array [
   "globalSetup",
   "moduleFileExtensions",
   "setupFiles",
+  "setupTestFrameworkScriptFile",
+  "testEnvironment",
+  "testEnvironmentOptions",
   "testMatch",
   "transform",
 ]

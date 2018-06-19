@@ -18,7 +18,11 @@
   "homepage": "https://github.com/tailify/jest-preset#readme",
   "dependencies": {
     "babel-jest": "23.0.1",
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
     "gherkin-jest": "0.24.0",
+    "jest-environment-enzyme": "6.0.1",
+    "jest-enzyme": "6.0.1",
     "jest-haste-map": "23.1.0"
   },
   "devDependencies": {
