@@ -17,6 +17,7 @@
   "bugs": "https://github.com/tailify/jest-preset/issues",
   "homepage": "https://github.com/tailify/jest-preset#readme",
   "dependencies": {
+    "babel-jest": "23.0.1",
     "gherkin-jest": "0.24.0",
     "jest-haste-map": "23.1.0"
   },
