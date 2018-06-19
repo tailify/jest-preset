@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  globalSetup: '<rootDir>/node_modules/@tailify/jest-preset/global-setup.js',
+  globalSetup: '@tailify/jest-preset/global-setup',
   moduleFileExtensions: ['feature', 'js'],
-  setupFiles: ['<rootDir>/node_modules/@tailify/jest-preset/setup.js'],
+  setupFiles: ['@tailify/jest-preset/setup'],
   testMatch: ['**/features/**/*.feature'],
   transform: {
     '^.+\\.feature$': 'gherkin-jest',
