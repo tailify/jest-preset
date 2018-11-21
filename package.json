@@ -3,6 +3,11 @@
   "version": "0.1.1",
   "description": "Tailify's very own opinionated Jest preset",
   "main": "jest-preset.js",
+  "files": [
+    "global-setup.js",
+    "jest-preset.js",
+    "setup.js"
+  ],
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
